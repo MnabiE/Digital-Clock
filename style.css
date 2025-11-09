@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(124deg, blue, lightblue);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  width: 50%;
+  height: 100px;
+  background-color: green;
+  margin: auto;
+  position: relative;
+  backdrop-filter: blur(40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.squre{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    border-radius: 50px;
+}
+
+span{
+    font-size: 40px;
+    color: white;
+}
